@@ -1,0 +1,24 @@
+ 
+Este es el proyecto de maven del examen propuesto.
+
+Todo esta pensado para ejecutarse en un entorno de Linux/Unix.
+El IDE usado para crearlo fue Netbeans.
+
+Si ya existe una base de datos Postgresql en el servidor donde se ejecuta, no es necesario crear una imagen de docker para ella,
+basta con crear la base de datos 'dimex' y un usuario 'Paulina' con password 'Paulina' que tenga acceso a ella.
+
+
+Los archivos de Docker son los siguientes:
+
+- hacerDockerPostgres.sh
+Detiene, borra y recrea y ejecuta una instancia de docker donde se ejecuta una base de datos Postgresql
+
+- correrDockerPostgres.sh
+Solo ejecuta la base de datos previamente creada
+
+- correrDockerApp.sh
+Ejecuta la aplicacion de spring boot del examen
+
+De acuerdo al entorno de ejecucion estos archivos pueden requerir alguna modificación.
+
+Saludos
